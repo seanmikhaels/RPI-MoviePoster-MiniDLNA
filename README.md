@@ -1,3 +1,5 @@
+![alt text](https://github.com/seanmikhaels/RPI-MoviePoster-MiniDLNA/blob/master/IMG_5004.jpeg?raw=true)
+
 Description
 
 A simple script to dynamically download and display movie posters based on “now playing” information pulled from minidlna. 
