@@ -1,5 +1,3 @@
-![alt text](https://github.com/seanmikhaels/RPI-MoviePoster-MiniDLNA/blob/master/IMG_5004.jpeg?raw=true)
-
 Description
 
 A simple script to dynamically download and display movie posters based on “now playing” information pulled from minidlna. 
@@ -70,3 +68,5 @@ Easy Install / Pre-req script
 Better error handling when no movie is found 
 Index selection via GPIO button 
 Movie timeout 
+
+![My Image](IMG_5004.jpeg)
