@@ -5,7 +5,7 @@ The project uses low cost hardware ( raspberry pi zero ) to display posters via 
 
 ## Technical theory of operations 
 
-The Model works in a client-server architecture. The client being the Raspberry PI the server a Linux based DLNA sever, readymedia or minidlna. A remote mount session is created between the minidlna sever and the client to pull the minidlna log data. When a movie is played through a DLNA request, the script monitors the minidlna.log file for any updates.
+The Model works in a client-server architecture. The client being the Raspberry PI device, the server any Linux based DLNA sever, readymedia or minidlna. A remote mount session is created between the minidlna sever and the client to pull the minidlna log data. When a movie is played through a DLNA request, the script monitors the minidlna.log file for any updates.
 
 The movie file name is fetched from the minidlnalog and is parsed using the PTN library on the client device. The movie title name is then fed into imdby/cimeongoer to “search” for the appropriate movie poster. The poster is downloaded and Finally , displayed using FBI ( frame buffer ) via raspberry pi CLI.
 
